@@ -1,0 +1,88 @@
+<html>
+<head>
+    <title>
+        Martial Arts Simulator
+    </title>
+   <style>
+       body {
+            background-image:
+            url('assets/images/temple.png');
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: 100%;
+        }
+       h1{
+           color:violet;
+       }
+       h4{
+         
+           text-align: center;
+           background-color: lightgreen;
+       }
+       .punch{
+           border-radius: 12px;
+           margin: 5px;
+       }
+       .punch:hover{
+           background-color: white;
+           border-color: blue;
+       }
+       .kick{
+        border-radius: 12px;
+        margin: 5px;
+       }
+       .kick:hover{
+           background-color: white;
+           border-color: green;
+       }
+       .forward{
+        border-radius: 12px;
+        margin: 5px;
+       }
+       .forward:hover{
+           background-color: white;
+           border-color: yellow;
+       }
+       .backward{
+        border-radius: 12px;
+        margin: 5px;
+       }
+       .backward:hover{
+           background-color: white;
+           border-color: purple;
+       }
+       .block{
+        border-radius: 12px;
+        margin: 5px;
+       }
+       .block:hover{
+           background-color: white;
+           border-color: orangered;
+       }
+   </style>
+</head>
+
+
+<body>
+  <h1>Welcome to Martial Art Simulator...........</h1>
+  
+    <canvas id="my-canvas" width="500" height="500"></canvas>
+  <div>
+    <button class="kick" id="kick">Kick (Arrow Key - Left)</button>
+    <div><button class="punch" id="punch">Punch (Arrow Key - Right)</button></div>  
+    <div>
+      <button class="forward" id="forward">Forward (Arrow Key - Top)</button>
+    </div>
+    <div>
+      <button class="backward" id="backward"> Backward (Arrow Key - Bottom)</button>
+    </div>
+    <div><button class="block" id="block">Block (Spacebar)</button></div>
+  </div>
+  
+  <h4><footer>Developed by Dr.R. Arthy</footer></h4>
+</body>
+<script type="text/javascript" src="mArts.js"></script>
+
+
+</html>>
+
